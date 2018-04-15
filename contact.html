@@ -13,7 +13,7 @@
         type="text/css">
   <script src="js/scripts.js"></script>
 </head>
-<body>
+<body id="contact-page">
   <div class="container">
     <header class="header">
       <a class="link-title"
@@ -26,17 +26,23 @@
       <h1>Side Bar</h1>
     </aside>
     <article class="main">
-      <h1>Contact</h1>
+      <h1 class="page-heading">Contact</h1>
       <div id="form">
         <form action="process.php">
-          <label for="name">Name:</label> <input name="name"
-                type="text"> <label for="email">Email:</label> <input name="email"
-                type="email"> <label for="subject">Subject:</label> <input name="subject"
-                type="text"> <label for="name">Message:</label> 
+          <p><label for="name">Name:</label> <input name="name"
+                 placeholder="Your Name"
+                 type="text"></p>
+          <p><label for="email">Email:</label> <input name="email"
+                 placeholder="Your Email"
+                 type="email"></p>
+          <p><label for="subject">Subject:</label> <input name="subject"
+                 placeholder="Your Subject"
+                 type="text"></p>
+          <p><label for="name">Message:</label> 
           <textarea cols="30"
-                id=""
-                name="message"
-                rows="10"></textarea>
+                    id=""
+                    name="message"
+                    rows="10"></textarea></p>
         </form>
       </div>
     </article>
