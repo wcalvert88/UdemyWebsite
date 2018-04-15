@@ -72,6 +72,10 @@ h2 {
     color: #444444;
 }
 
+#home-image img {
+    width: 100%;
+}
+
 footer {
     padding: 6px 40px 6px 40px;
     background: #d6d6d6;
