@@ -12,11 +12,12 @@ body {
     width: 780px;
     margin: 0 auto;
     background: #FFF;
+    box-shadow: 0px 9px 13px 5px;
 }
 
 .header {
     padding: 45px 0 20px 40px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .menu {
@@ -119,9 +120,11 @@ footer a {
 
 #contact-page #form {
     width: 500px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 10px 10px 10px 10px;
     margin: 0 auto;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
 }
 
 .page-heading {
